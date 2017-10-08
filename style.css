@@ -1,0 +1,255 @@
+/************************ ALL THINGS RELATED TO VERTICAL BARS *********************************/
+
+.BarsVert {
+    position:fixed;
+    width:5vw;
+    height:91vh;
+    background-color: rgba(255,152,0,0.75);
+    border-radius:10px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    padding:5px;
+    transition:1s;
+}
+
+#BarsRight {
+    right:0.5%;
+}
+
+#BarsLeft {
+    left:0.5%;
+}
+
+.VertImgs {
+    width:100%;
+    height:9%;
+    border-radius:10px;
+}
+
+.VertImgs:hover, .VertIcons:hover {
+    opacity:0.6;
+    cursor:pointer;
+}
+
+.VertIcons {
+    width:85%;
+    height:9%;
+    border:5px solid white;
+    border-radius:10px;
+}
+
+#LeftLeft, #RightLeft {
+    margin-top:17px;
+}
+
+#ImgLeft1, #ImgRight1 {
+    margin-top:2px;
+}
+
+/***************************** ALL THINGS RELATED TO HORIZONTAL BARS **************************/
+
+.BarsHor {
+    position:fixed;
+    width:46vw;
+    height:8.5vh;
+    background-color: rgba(255,152,0,0.75);
+    border-radius:10px;
+    right:0px;
+    left:0px;
+    margin:auto;
+    padding:5px;
+    transition:1s;
+}
+
+#BarsTop {
+    top:1.25%;
+}
+
+#BarsBottom {
+    bottom:1.25%;
+}
+
+.HorImgs {
+    width:11%;
+    height:100%;
+    border-radius:10px;
+}
+
+.HorImgs:hover, .HorIcons:hover {
+    opacity:0.6;
+    cursor:pointer;
+}
+
+.HorIcons {
+    width:8%;
+    height:83%;
+    border:5px solid white;
+    border-radius:10px;
+}
+
+#TopLeft, #BottomLeft {
+    margin-left:24px;
+}
+
+#ImgTop1, #ImgBottom1 {
+    margin-left:2px;
+}
+
+/************************************* RESET BUTTON *****************************************/
+.ResetVert {
+    position:absolute;
+    bottom:80%;
+    width:78%;
+    height:8%;
+    border:5px solid rgba(255,152,0,0.75);
+    border-radius: 10px;
+    background-color:rgba(255,152,0,0.75);
+}
+
+.ResetHor {
+    position:absolute;
+    width:9%;
+    height:83%;
+    border:5px solid rgba(255,152,0,0.75);
+    border-radius:10px;
+    background-color:rgba(255,152,0,0.75);
+    left:10.5%;
+}
+
+#ResetTop {
+    top:100%;
+}
+
+#ResetBottom {
+    bottom:100%;
+}
+
+.ResetVert:hover, .ResetHor:hover {
+    opacity:0.6;
+    cursor:pointer;
+}
+
+#ResetLeft {
+    right:-91%;
+}
+
+#ResetRight {
+    left:-91%;
+}
+
+/*******************************8******** IN 'N OUT *******************************************/
+
+.InandOutVert {
+    position:absolute;
+    width:78%;
+    height:8%;
+    border:5px solid rgba(255,152,0,0.75);
+    border-radius: 10px;
+    background-color:rgba(255,152,0,0.75);
+}
+
+#LeftArrowin {
+    left:100%;
+    bottom:90%;
+}
+
+#RightArrowin {
+    right:100%;
+    bottom:90%;
+}
+
+#LeftArrowout{
+    left:100%;
+    bottom:0px;
+}
+
+#RightArrowout {
+    right:100%;
+    bottom:0px;
+}
+
+.InandOutHor {
+    position:absolute;
+    width:9%;
+    height:83%;
+    border:5px solid rgba(255,152,0,0.75);
+    border-radius:10px;
+    background-color:rgba(255,152,0,0.75);
+}
+
+#TopArrowin {
+    top:100%;
+    left:0px;
+}
+
+#TopArrowout {
+    top:100%;
+    right:0px;
+}
+
+#BottomArrowin {
+    bottom:100%;
+    left:0px;
+}
+
+#BottomArrowout {
+    bottom:100%;
+    right:0px;
+}
+
+.InandOutVert:hover, .InandOutHor:hover {
+    opacity:0.6;
+    cursor:pointer;
+}
+
+/************************************ PICS INSIDE *******************************************/
+
+#inside {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+    width:80vw;
+    height:65vh;
+}
+
+.BigImgVert {
+    position:absolute;
+    height:40%;
+    width:30%;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    border-radius:10px;
+    border:5px solid rgba(255,152,0,1);
+}
+
+.BigImgHor {
+    position: absolute;
+    height:40%;
+    width:30%;
+    right:0px;
+    left:0px;
+    margin:auto;
+    border-radius:10px;
+    border:5px solid rgba(255,152,0,1);
+}
+
+#BigImgLeft {
+    left:0px;
+}
+
+#BigImgRight {
+    right:0px;
+}
+
+#BigImgTop {
+    top:0px;
+}
+
+#BigImgBottom {
+    bottom:0px;
+}
